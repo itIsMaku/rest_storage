@@ -1,9 +1,9 @@
-server.port=27633
+server.port=8080
 
 spring.datasource.driver-class-name=com.mysql.jdbc.Driver
 spring.datasource.url=jdbc:mysql://127.0.0.1:3306/rest_storage
-spring.datasource.username=root
-spring.datasource.password=
+spring.datasource.username=rest_storage
+spring.datasource.password=pass
 
 spring.jpa.database-platform=org.hibernate.dialect.MySQL5Dialect
 spring.jpa.show-sql=false
